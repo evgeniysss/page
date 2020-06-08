@@ -1,0 +1,22 @@
+{
+  "name": "kdk_partners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeniysss/kdk_partners.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgeniysss/kdk_partners/issues"
+  },
+  "homepage": "https://github.com/evgeniysss/kdk_partners/",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
