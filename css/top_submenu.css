@@ -1,0 +1,43 @@
+.topmenu > li {
+    position: relative;
+}
+
+.submenu {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    width: 200px;
+    height: 200px;
+    padding-top: 36px;
+}
+
+.submenu-item {
+    padding-bottom: 16px;
+}
+
+.one .submenu {
+    display: none;
+    background: #F6F8F9;
+}
+
+.one ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+  color: rgb(100, 100, 100);
+  opacity: 0.5;
+}
+
+.submenu li a:hover {
+    opacity: 1;
+  }
